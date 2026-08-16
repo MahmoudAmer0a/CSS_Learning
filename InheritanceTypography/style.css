@@ -1,0 +1,41 @@
+:root {
+    --Primary: #c2feec;
+    --Secondary: #aadcea;
+    --background: #F2CE99;
+    --text: #b43c0d;
+    --white: #EB6241;
+}
+body{
+    font-family:"Dancing Script", cursive;
+    font-weight: 700;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Primary);
+}
+div {
+    text-align: center;
+    background-color: var(--background);
+    padding: 10px;
+    margin: 20px;
+    font-size: 10px;
+    width: 300px;
+    color: var(--text);
+}
+span{
+    font-variant: small-caps;
+    cursor:grabbing;
+}
+p{
+    /* cursor: grab; */
+    cursor: progress;
+}
+div:hover{
+    background-color: var(--Secondary);
+    color: var(--white);
+    cursor : pointer
+}
+
+
+

@@ -1,0 +1,55 @@
+body{
+    border: solid 2px blue;
+}
+.assign-1{
+    border: inherit;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    background-color: #eee;
+}
+p1{
+    border: inherit;
+}
+
+.assign-2{
+    font-size: 20px;
+    text-align: center;
+}
+.d1{
+    font-family: "Open sans";
+    font-style: italic;
+    font-weight: 300;
+}
+.d2{
+    font-family: "Cairo";
+    font-weight: 700;
+}
+.d3{
+    font-family: "Jomhuria";
+    font-weight: 400;
+}
+
+:root{
+    font-size: 10px;
+}
+.assig-3{
+    text-align: center;
+}
+.div1{
+    font-size: 5rem;
+}
+.div2{
+    font-size: 4rem;
+}
+.div3{
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+
