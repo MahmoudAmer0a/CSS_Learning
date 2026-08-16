@@ -1,0 +1,73 @@
+/* 1 */
+/* div {
+    background-color: blueviolet;
+    background-color: rgb(138, 43, 226);
+    background-color: #8a2be2; 
+    position: center center;
+    width: 500px;
+    margin: 20px;
+
+}
+.assign-1-shape-2{
+    opacity: 50%;
+}
+.assign-1-shape-3{
+    opacity: 10%;
+} */
+
+/* 2 - 3*/
+div {
+    color: white;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    background-color: antiquewhite;
+    background-image: url("https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png");
+}
+/* .assign-2-shape-1 {
+    background-repeat: no-repeat;
+}
+.assign-2-shape-2 {
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.assign-2-shape-3 {
+    background-repeat: repeat-x;
+    background-position: bottom;
+} */
+/* 4 */
+.assign-2-shape-1{
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+}   
+.assign-2-shape-2{
+    background-position: right;
+    background-size: 80% ;
+    background-repeat: repeat-y;
+}
+.assign-2-shape-3{
+    background-position: bottom;
+    background-size: 80% ;
+    background-repeat: repeat-x;
+}
+.assign-2-shape-4{
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size : 50% 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

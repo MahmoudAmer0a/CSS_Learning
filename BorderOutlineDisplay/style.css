@@ -1,0 +1,82 @@
+/* Lessons 9 - 12*/
+.border {
+    height: 300px;
+    width: 300px;
+    margin:  20px;
+    padding:  10px;
+    background-color: #cccccc;
+    
+    border-width: 10px;
+    /* border-width: 5px 10px 15px 20px; */
+    border-color: green;
+    /* border-color: red blue green black; */
+    border-style: solid;
+    /* border-style: solid dashed double dotted; */
+    border-radius: 10px;
+
+    /* outline-width: 50px; */
+    /* outline-color: red; */
+    /* outline-style: solid; */
+    /* outline: blue 50px solid; */
+}
+
+.Block-Elemet{
+    background-color: #ffccff;
+    border:blue 3px solid;
+
+    /* display: block; */
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+.Inline-Element{
+    background-color: #fa1dd1;
+    border:blue 3px solid;
+
+    display: inline;
+    /* display: block; */
+    /* display: inline-block; */
+    /* width: 1000px;
+    height: 1000px; */
+    padding: 10px;
+    margin: 10px;
+}
+.Inline-Block-Element{
+    background-color: #fafbd1;
+    border:#adfadf 3px solid;
+
+    display: inline-block;
+    /* display: none; */
+    visibility: visible;
+
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

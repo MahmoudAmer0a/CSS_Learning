@@ -1,0 +1,29 @@
+.one{
+    width: 400px;
+    height: 400px;
+    background-color: #ccc;
+    color: black;
+
+    text-shadow: 10px 10px 2px #ff3838dd;
+    text-align: center;
+    direction: ltr;
+
+    text-decoration: line-through;
+    text-transform: uppercase;
+
+    letter-spacing: 3px;
+    /* letter-spacing: -3px; */
+    word-spacing: 3px;
+    text-indent: 100px;
+    line-height: 1.5;
+    white-space: nowrap;
+    /* white-space: nowrap; */
+    word-break: break-word;
+    /* word-break: break-all; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.one:hover{
+    overflow: visible;
+}

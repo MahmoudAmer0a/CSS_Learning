@@ -1,0 +1,39 @@
+.one,.two,.three{
+    display: inline-block;
+
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 3px solid #EEE;
+    background-color: black;
+}
+.one{
+    background-color: aliceblue;
+}
+.two{
+    background-color: aqua;
+}
+.three{
+    background-color: darkolivegreen;
+}
+.wrapper p{
+    color: red;
+}
+.wrapper .special{
+    font-size: 25px;
+}
+
+.dimensions{
+    display: inline-block;
+    background-color: blueviolet;
+    /* min-width: 100px; */
+    /* max-width: 400px; */
+    width: fit-content;
+}
+
+.over{
+    background-color: #ccc;
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+}
+

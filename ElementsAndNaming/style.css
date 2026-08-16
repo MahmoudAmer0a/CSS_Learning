@@ -1,0 +1,17 @@
+p {
+    background-color: rgb(235, 253, 74);
+}
+p {
+    background-color: black;
+    color: rgb(242, 82, 82);
+}
+/*  choosing Element by class/id name 
+    have more proirty than the whole element selector and less than inline*/
+.className{
+    font-size: 20px;
+    font-weight: bold;
+}
+#_idName{
+    color: #0cc;
+    background-color: #ece;
+}
