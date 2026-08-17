@@ -1,0 +1,152 @@
+body{
+    height: 1500px;
+}
+.assign-1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.assign-1.green{
+    background-color: green;
+    z-index: 3;
+    top: 30px;
+    left: 30px;
+}
+.assign-1.red{
+    background-color: red;
+    z-index: 4;
+    top: 40px;
+    left: 40px;
+}
+.assign-1.blue{
+    background-color: blue;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}
+.assign-1.black{
+    background-color: black;
+    z-index: 1;
+    top: 30px;
+    left: 20px;
+}
+
+/*********************/
+
+.assign-2{
+    position: relative;
+    top : 150px;
+    justify-self: center;
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    background-color: #eee;
+    border-left: 1px aqua solid;
+    border-right: 1px aqua solid;
+    border-top: 1px red solid;
+    border-bottom: 1px red solid;
+}
+.assign-2 .top-left{
+    position: absolute;
+    background-color: aqua;
+    text-align: center;
+    align-items: center; 
+    width: 20px;
+    top : -10px;
+    left: -10px;
+    border-right: 1px red solid;
+    border-bottom: 1px aqua solid;
+}
+.assign-2 .bottom-left{
+    position: absolute;
+    background-color: aqua;
+    text-align: center;
+    align-items: center; 
+    width: 20px;
+    bottom : -10px;
+    left: -10px;
+    border-right: 1px red solid;
+    border-bottom: 1px aqua solid;
+}
+.assign-2 .top-right{
+    position: absolute;
+    background-color: aqua;
+    text-align: center;
+    align-items: center; 
+    width: 20px;
+    top : -10px;
+    right: -10px;
+    border-left: 1px red solid;
+    border-bottom: 1px aqua solid;
+}
+.assign-2 .bottom-right{
+    position: absolute;
+    background-color: aqua;
+    text-align: center;
+    align-items: center; 
+    width: 20px;
+    bottom : -10px;
+    right: -10px;
+    border-left: 1px red solid;
+    border-bottom: 1px aqua solid;
+}
+
+/*********************/
+
+.assign-3{
+    position: relative;
+    top : 200px;
+    width: 400px;
+    justify-self: center;
+    list-style: none;
+    padding: 10px;
+    background-color: aquamarine;
+}
+.assign-3 li {
+    background-color: #eee;
+    /* list-style: none; */
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.assign-3 li ol li{
+    background-color: white;
+}
+.assign-3 li ul li{
+    background-color: white;
+}
+
+/*********************/
+
+table{
+    position: relative;
+    top: 200px;
+    justify-self: center;
+    width: 700px;
+    background-color: #eee;
+    text-align: center;
+    border-collapse : collapse;
+}
+table img {
+    width: 50px;
+    height: 50px;
+}
+table thead{
+    background-color: #404040;
+}
+table td{
+    border: 2px solid white;
+    padding: 20px;
+}
+.view{
+    background-color: aqua;
+    color:white;
+    border: none;
+    font-weight: bold;
+}
+.delete{
+    background-color: crimson;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+/*********************/

@@ -1,0 +1,113 @@
+body{
+    height: 2000px;
+}
+.parent{
+    width: 80%;
+    height: 40%;
+    background-color: hsl(0, 0%, 80%);
+
+    position: relative;
+    top: 2%;
+    left: 10%;
+}
+.one{
+    text-align: center;
+    color: white;
+    background-color: #0000dd;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px;
+    margin: 10px;
+    position: sticky;
+    top: 10px;
+
+}
+
+.top{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    text-align: center;
+    font-family:  sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 150px;
+    width: 50px;
+    height: 50px;
+
+    position: fixed;
+    bottom: 10px;
+    right: 50%;
+}
+
+.child{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    
+    text-align: center;
+    font-family:  sans-serif;
+    background-color: aquamarine;
+
+}
+
+h2{
+    background-color: #ffa230;
+}
+.nav{
+    /* list-style-image: url(../images/logo.PNG); */
+    list-style: none;
+    background-color: #ffe4c4;
+    padding: 0px;
+    padding-left: 5px;
+    margin: 5px;
+}
+.nav li {
+    margin-bottom: 5px;
+    padding-left: 5px;
+    margin-left: 5px;
+    
+}
+.nav li ul{ 
+    list-style: none;
+    background-color: #fff5e8;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    margin: 5px 0px 0px 5px;
+}
+
+
+table{
+    text-align: center;
+    width: 80%;
+    height: 30%;
+    background-image: url(../images/Gate.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    border: black solid 5px;
+    padding: 0px;
+    margin: 0px;
+    border-collapse: collapse;
+    border-spacing: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+table td{
+    padding: 10px;
+    border: white solid 2px;
+}
+table tr{
+    background-color: #00ffff30;
+    
+}
+table thead{
+    border: 3px red solid;
+    background-color: #ffa230;
+}
+table tfoot{
+    border: 3px blue solid;
+    background-color: #ffa230;
+}
