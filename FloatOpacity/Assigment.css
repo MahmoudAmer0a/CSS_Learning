@@ -1,0 +1,54 @@
+.parent{
+    width: 800px;
+    background-color: #eee;
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    display: block;
+}
+.assign-1 div{
+    background-color: #ccc;
+    padding: 10px;
+}
+.assign-1.child-1 div{
+    float: left;
+    margin: 15px;
+    width: calc((100% - 2*25px));
+}
+
+.assign-1.child-2 div{
+    float: left;
+    margin: 15px;
+    width: calc((100% - 6*25px) / 3 );
+}
+.assign-1.child-3 div{
+    float: left;
+    margin: 15px;
+    width: calc((100% - 4*25px) / 2 );
+}
+.assign-1.child-4 div{
+    float: left;
+    margin: 15px;
+    width: calc((100% - 8*25px) / 4 );
+}
+.clear{
+    clear: both;
+}
+
+
+
+.assign-2 {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #b3b3b3; /* Get The Background From Image */
+    color: black;
+}
+.assign-2.one{
+    background-color: #b3b3b316;
+}
+.assign-2.two{
+    opacity: 0.1;
+}

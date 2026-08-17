@@ -1,0 +1,23 @@
+.parent{
+    background-color: #008000;
+    padding: 10px;
+    overflow: hidden;
+    margin: 0px;
+    opacity: 1;
+}
+.parent div{
+    /* width: 21%; */
+    width: calc((100% - 200px)/5);
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* margin: 1%; */
+    margin: 10px;
+    float: left;
+    opacity: 0.3;
+}
+.clear{
+    clear:both;
+}
