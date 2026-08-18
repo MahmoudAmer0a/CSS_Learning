@@ -1,0 +1,109 @@
+.assign-1{
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #eee;
+    position: relative;
+    left: calc((100% - 300px)/2);
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+.assign-1:empty{
+    background-color: red;
+}
+
+
+.assign-2{
+    width: 500px;
+    padding: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #eee;
+    position: relative;
+    left: calc((100% - 500px)/2);
+
+}
+.assign-2::before{
+    content: "1";
+    background-color: red;
+    position: absolute;
+    color: white;
+    padding: 10px;
+    top: 20px;
+    left: -10px;
+}
+
+
+.assign-3{
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #eee;
+    position: relative;
+    left: calc((100% - 500px)/2);
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #e91e63;
+}
+.assign-3::before{
+    content: attr(data-person);
+    position: absolute;
+    left: -100px;
+    top: 10px;
+
+    background-color: #ccc;
+    padding: 10px;
+    min-width: 60px;
+}
+.assign-3::after{
+    content: "";
+    position: absolute;
+    left: -29px ;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #e91e63 transparent transparent;
+}
+
+
+.assign-4{
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #eee;
+    position: relative;
+    left: calc((100% - 400px)/2);
+    counter-increment: product;
+}
+.assign-4::before{
+    content: counter(product);
+    background-color: #f44336;
+    color: white;
+    position: absolute;
+    padding: 20px;
+    left: 0px;
+    top: 0px;
+}
+.assign-4::after{
+    content: "";
+    background-color: #f44336;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 5px;
+    height: 100%;
+}
+
+
+
+
+
+
