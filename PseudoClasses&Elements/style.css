@@ -3,10 +3,12 @@
     color: white;
 }
 .two{
+    position: relative;
     background-color: brown;
     color: bisque;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 200px;
+    margin-left: 50px;
 }
 a{
     color: gold;
@@ -26,10 +28,11 @@ a:hover{
     outline: none;
     border: 3px seagreen solid;
 }
-:empty{
+/* No use anymore - just for showcase */
+/* :empty{
     height: 30px;
     border: 1px red dashed ;
-}
+} */
 
 .one::first-letter{
     background-color: coral;
@@ -52,4 +55,25 @@ a:hover{
 ::selection{
     background-color: blueviolet;
     color: aqua;
+}
+
+.two:hover::after{
+    content: "";
+    position: absolute;
+    background-color: blue;
+    height: 100%;
+    width: 10px;
+    right: 0px;
+    top: 0px;
+}
+.two::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    border-width: 20px;
+    border-style: solid;
+    border-color:  transparent transparent transparent green;
+    width: 0px;
+    height: 0px;
 }
