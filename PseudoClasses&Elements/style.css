@@ -27,6 +27,29 @@ a:hover{
     border: 3px seagreen solid;
 }
 :empty{
-    height: 50px;
+    height: 30px;
     border: 1px red dashed ;
+}
+
+.one::first-letter{
+    background-color: coral;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: serif;
+    color: aliceblue;
+    margin: 5px;
+    padding: 5px;
+}
+.two::first-line{
+    background-color: coral;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: serif;
+    color: aliceblue;
+    margin: 5px;
+    padding: 5px;
+}
+::selection{
+    background-color: blueviolet;
+    color: aqua;
 }
