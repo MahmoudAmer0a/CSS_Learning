@@ -1,0 +1,32 @@
+.one{
+    background-color: red;
+    color: white;
+}
+.two{
+    background-color: brown;
+    color: bisque;
+    width: 300px;
+    height: 300px;
+}
+a{
+    color: gold;
+    text-decoration: none;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color:black;
+}
+.ch:checked + label{
+    color: blue;
+}
+.in:focus{
+    background-color: coral;
+    outline: none;
+    border: 3px seagreen solid;
+}
+:empty{
+    height: 50px;
+    border: 1px red dashed ;
+}
