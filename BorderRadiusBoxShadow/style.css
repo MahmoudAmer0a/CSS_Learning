@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+}
+.lesson{
+    /* -webkit-border: 1px solid red;
+    -moz-border: 1px solid red;
+    -o-border: 1px solid red;
+    -ms-border: 1px solid red;
+    -brave-border: 1px solid red; */
+
+    border: 5px solid red;
+    width: 300px;
+    height: 100px;  
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 0px;
+}
+
+.lesson1{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 20px ;
+
+    justify-items: center;
+    align-items: center;
+
+    font-size: 16px;
+    font: bold;
+    color: white;
+    background-color: black;
+
+    border: 3px solid gold;
+    border-radius: 50%;
+}
+
+.lesson1 p{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.shadow{
+    position: relative;
+    background-color: rebeccapurple;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    p{
+        position: absolute;
+        top: 34px;
+        left: 75px;
+        color: white;
+    }
+    box-shadow: 0px 0px 10px 20px white inset,
+                0px 0px 10px 20px rebeccapurple;
+}
+
+.parent{
+    background-color: #ddd;
+    margin: 10px auto;
+    padding: 20px;
+    width: 640px;
+    overflow: hidden;
+}
+.parent .child{
+    box-sizing: border-box;
+
+    background-color: #ccc;
+    width: 200px;
+    float: left;
+    
+    padding: 10px;
+    border: 10px solid #ddd;
+    /* margin: 10px; */
+}
+
+
+
