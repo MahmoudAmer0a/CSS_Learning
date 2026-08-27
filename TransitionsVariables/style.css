@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+:root {
+    --primary-color : #bb00ff;
+    --secondary-color :#ff960e;
+    --assist-color : #002aff;
+
+    --mainWidth : 200px; 
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(300deg, var(--primary-color, black),var(--secondary-color),var(--assist-color));
+}
+.one{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: var(--mainWidth);
+    height: 100px;
+    background-color: var(--primary-color) !important;
+    background-color: var(--primary-color, black),var(--secondary-color) ;
+
+    /* transition-duration: 2000ms; */
+    /* transition-delay: 200ms; */
+    /* transition-property: all; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-timing-function: linear; */
+    transition: 
+        width 2s 0.5s linear,
+        height 2s 0.5s ease-in-out;
+}
+.one:hover{
+    width: calc(3.5*--mainWidth);
+    height: 300px;
+    /* top: 200px;
+    left: 300px; */
+    background: linear-gradient(135deg,var(--primary-color), #ff00ff);
+}
+
+.parent{
+    width: calc(2*var(--mainWidth));
+    height: 400px;
+    margin: 50px auto;
+    overflow: hidden;
+    background-color: azure;
+}
+.parent .frist{
+    float: left;
+    background-color: var(--primary-color, black),var(--secondary-color);
+    width: var(--mainWidth);
+    height: 400px;
+}
+.parent .second{
+    float: left;
+    background-color: var(--primary-color);
+    width: var(--mainWidth);
+    height: 400px;
+}
+.parent .second .third{
+    float: left;
+    background-color: yellow;
+    width: var(--mainWidth);
+    height: 200px;
+    margin-bottom: 20px;
+}
+.parent .second .forth{
+    float: left;
+    background-color: black;
+    width: var(--mainWidth);
+    height: 200px;
+    margin-top: 30px;
+}
