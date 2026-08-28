@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.image {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    margin: 10px auto;
+
+    transition: all 1s 0.2s ease-in-out ;
+}
+.parent::before{
+    content: '';
+    position: absolute;
+    top : 10px ;
+    left: calc( 50% - 300px /2);
+    height: 10px;
+    width: 300px;
+    /* background: linear-gradient(90deg , red , blue , violet); */
+    background: radial-gradient(circle,rgba(0, 179, 250, 1) 0%, rgba(120, 247, 94, 1) 29%, rgba(191, 245, 15, 1) 49%, rgba(252, 93, 13, 1) 60%, rgba(211, 17, 245, 1) 72%, rgba(252, 18, 18, 1) 98%);
+}
+.image:hover{
+    width: 500px;
+    height: 350px;
+
+    /* filter: grayscale(100%); */
+    /* filter: blur(10px); */
+    /* filter: invert(100%); */
+    /* filter: brightness(20%); */
+    filter: blur(2px) brightness(50%) grayscale(100%);
+}
+
+.p {
+    caret-color: green   ;
+}

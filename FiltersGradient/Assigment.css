@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.assign-1{
+    width: 600px;
+    margin: 20px auto;
+
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+
+    border: 5px solid transparent;
+    border-image: linear-gradient( 90deg ,
+    orangered 20% ,
+    aqua 20%,
+    aqua 40%,
+    lime 40%,
+    lime 60%,
+    violet 60%,
+    violet 80%,
+    purple 80%,
+    purple 100%
+    ) 1;
+}
+.assign-1::first-letter{
+    color: orangered;
+}
+
+
+.parent{
+    width: 400px;
+    margin: 20px auto;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.parent div{
+    position: relative;
+    background-color: #ddd;
+    margin: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    opacity: 50%;
+    caret-color: orangered;
+}
+.parent div::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 5%;
+    background: linear-gradient(90deg,
+    orangered 50%,
+    turquoise 50%,
+    turquoise 100%);
+}
+
+.parent div:focus{
+    opacity: 100%;
+    outline: none;
+}
